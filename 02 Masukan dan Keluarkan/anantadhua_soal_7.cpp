@@ -1,23 +1,18 @@
-#include <cmath>
-#include <cstdio>
-#include <vector>
 #include <iostream>
-#include <algorithm>
+
 using namespace std;
 
 int main()
 {
+    string orang1, orang2, orang3, orang4, orang5, orang6, orang7, orang8, orang9, orang10, orang11, orang12;
 
-    string x[12];
+    cin >> orang1 >> orang2 >> orang3;
+    cin >> orang4 >> orang5 >> orang6;
+    cin >> orang7 >> orang8 >> orang9;
+    cin >> orang10 >> orang11 >> orang12;
 
-    cin >> x[0] >> x[1] >> x[2];
-    cin >> x[3] >> x[4] >> x[5];
-    cin >> x[6] >> x[7] >> x[8];
-    cin >> x[9] >> x[10] >> x[11];
-
-    cout << x[0] << " " << x[3] << " " << x[6] << " " << x[9] << endl;
-    cout << x[1] << " " << x[4] << " " << x[7] << " " << x[10] << endl;
-    cout << x[2] << " " << x[5] << " " << x[8] << " " << x[11] << endl;
-
-    return 0;
+    cout << orang1 << " " << orang4 << " " << orang7 << " " << orang10 << " " << endl;
+    cout << orang2 << " " << orang5 << " " << orang8 << " " << orang11 << " " << endl;
+    cout << orang3 << " " << orang6 << " " << orang9 << " " << orang12 << " " << endl;
+    return 0;
 }
