@@ -14,5 +14,5 @@ int main()
     cout << orang1 << " " << orang4 << " " << orang7 << " " << orang10 << " " << endl;
     cout << orang2 << " " << orang5 << " " << orang8 << " " << orang11 << " " << endl;
     cout << orang3 << " " << orang6 << " " << orang9 << " " << orang12 << " " << endl;
-    return 0;
+    return 0;
 }
