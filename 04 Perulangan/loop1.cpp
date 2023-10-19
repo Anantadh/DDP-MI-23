@@ -8,6 +8,6 @@ int main()
         cout << "dia sudah ada yang lain..." << endl;
         }
         
-        return 0;
+        return 0; 
     
 }
